@@ -1,24 +1,25 @@
-##################################################
-# Comlete your code here
-##################################################
 
-# numbers = list(map(int, input().split()))
+def getInput():
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
+
+
+def evenList(numbers):
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
+
 
 def main():
-    numbers = input().split()
-    for i in range(len(numbers)):
-        numbers[i] = int(numbers[i])
-    print(numbers)
-
-    ######################################################
-    # Use this variable for the result
-    ######################################################
-    main.evenlist = []
-    ######################################################
-
-    # Code your program here
-
-    print(main.evenlist)
+    numbers = getInput()
+    retval = evenList(numbers)
+    print(f'The numbers at the even index: {retval}')
+    print(f'The remainder numbers in the original list: {numbers}')
 
 
 if __name__ == '__main__':
